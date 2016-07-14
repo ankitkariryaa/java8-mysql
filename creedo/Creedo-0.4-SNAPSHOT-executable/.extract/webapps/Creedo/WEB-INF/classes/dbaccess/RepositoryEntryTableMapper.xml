@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- Created by: http://blog.idleworx.com, http://www.idleworx.com -->
+<mapper
+	namespace="de.unibonn.creedo.repositories.mybatisimpl.RepositoryEntryTableMapper">
+
+	<resultMap id="EntryRowMap"
+		type="de.unibonn.creedo.repositories.mybatisimpl.EntryTableRow">
+		<id property="id" column="id" />
+		<result property="id" column="id" />
+		<result property="contentClassName" column="content_class_name" />
+	</resultMap>
+
+	<resultMap id="ParameterRowMap"
+		type="de.unibonn.creedo.repositories.mybatisimpl.ParameterTableRow">
+		<result property="parameterName" column="param_name" />
+		<result property="parameterValue" column="param_value" />
+	</resultMap>
+
+	<update id="createEntryTableIfNotExists" parameterType="map">
+		CREATE
+		TABLE IF NOT EXISTS ${entryTableName} (
+		`id` VARCHAR(255) PRIMARY KEY
+		NOT
+		NULL,
+		`content_class_name` TEXT
+		);
+	</update>
+
+	<update id="createParameterTableIfNotExists" parameterType="map">
+		CREATE TABLE IF NOT EXISTS
+		${parameterTableName} (
+		`id` INT PRIMARY
+		KEY
+		NOT NULL
+		AUTO_INCREMENT,
+		`entry_id` VARCHAR(255),
+		`param_name` TEXT,
+		`param_value`
+		TEXT,
+		FOREIGN KEY (`entry_id`) REFERENCES
+		${entryTableName}
+		(`id`)
+		);
+	</update>
+
+	<insert id="insertEntryRow" parameterType="map">
+		INSERT INTO
+		${tableName} (`id`,`content_class_name`) VALUES (#{id},
+		#{contentClassName});
+	</insert>
+
+	<select id="getEntryRow" parameterType="map" resultMap="EntryRowMap">
+		SELECT *
+		FROM ${tableName} WHERE id = #{id};
+	</select>
+
+	<delete id="deleteEntryRow" parameterType="map">
+		DELETE
+		FROM
+		${tableName} WHERE id = #{id};
+	</delete>
+
+	<select id="getAllEntryRows" parameterType="map" resultMap="EntryRowMap">
+		SELECT * FROM ${tableName};
+	</select>
+
+	<select id="getEntryParameterRows" parameterType="map"
+		resultMap="ParameterRowMap">
+		SELECT * FROM ${tableName} WHERE entry_id = #{entryId};
+	</select>
+
+	<delete id="deleteEntryContentParameterRows" parameterType="map">
+		DELETE
+		FROM ${tableName} WHERE entry_id = #{entryId};
+	</delete>
+
+	<insert id="insertEntryContentParameterRow" parameterType="map">
+		INSERT INTO
+		${tableName} (`entry_id`,`param_name`, `param_value`)
+		VALUES
+		(#{entryId}, #{parameterName}, #{parameterValue});
+	</insert>
+
+</mapper>

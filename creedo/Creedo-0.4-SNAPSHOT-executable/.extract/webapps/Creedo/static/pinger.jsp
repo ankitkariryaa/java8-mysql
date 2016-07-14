@@ -1,0 +1,1 @@
+<div id="creedo-pinger" creedoComponentId="${pingReceiverId}"></div>

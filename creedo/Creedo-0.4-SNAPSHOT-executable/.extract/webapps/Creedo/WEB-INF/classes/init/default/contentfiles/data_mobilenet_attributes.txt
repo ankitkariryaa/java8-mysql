@@ -1,0 +1,7 @@
+cellid;name;ID of Phone cell
+20130101-00;numeric;Value at time t0
+20130101-01;numeric;Value at time t1
+20130101-02;numeric;Value at time t2
+20130101-03;numeric;Value at time t3
+20130101-04;numeric;Value at time t4
+20130101-05;numeric;Value at time t5

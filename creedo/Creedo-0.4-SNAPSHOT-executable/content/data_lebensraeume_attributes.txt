@@ -1,0 +1,58 @@
+id;name;Participant ID
+State;categoric;German Federal State
+Region;categoric;Does the Participant live in eastern or western Germany?
+Settlement Type;categoric;BBSR Settlement Type
+Place Contentment;categoric;How happy are you with living in your city or community?
+Occupancy;numeric;For how many years do you still live in your apartment?
+Ownership;categoric;Ownership structure
+Rent (Euro);numeric;How much do you pay monthly for your apartment?
+Rent Opinion;categoric;Opinion about the monthly rent
+Accommodation Size;numeric;Total size of accomodation unit (square meter)
+No. Rooms;numeric;Number of rooms of the accomodation unit
+Separate Kitchen;categoric;Is the kitchen a separate room?
+Balcony;categoric;Has your accommodation a balcony or terrace?
+Garden;categoric;Do you have a garden (or joint use of garden)?
+Car Park;categoric;Do you have a car park?
+Standard Fixtures;categoric;Has your apartment standard fixtures?
+Fixtures ok;categoric;Do the apartment fixtures meet your needs?
+House type;categoric;Building type
+House condition;categoric;Condition of the house
+Accommodation Opinion;categoric;Contentment with the particular accommodation unit
+Residential Environment Opinion;categoric;Contentment with the residential environment nearby
+Environment Conditions Opinion;categoric;Contentment with environmental conditions (e.g. noisiness or air quality)
+Residential Area;categoric;Residential area
+Land Use;categoric;Land use of residential area
+Neighborhood Maturity;categoric;Maturity of buildings in the neighborhood
+Neighborhood Building Type;categoric;Types of buildings in the neighborhood
+Old-age Neighborhood;categoric;Are pensioners represented in your neighborhood?
+Young-age Neighborhood;categoric;Are younger persons represented in the neighborhood?
+Family;categoric;Are families represented in your neighborhood?
+Low-Income Neighborhood.;categoric;Are people with a lower income represented in your neighborhood?
+High-Income Neighborhood;categoric;Are people with a higher income represented in your neighborhood?
+Foreign Nationals Neighborhood;categoric;Are foreign nationals represented in your neighborhood?
+Integration;categoric;Appraisal of relationships between foreign nationals and Germans in the neighborhood
+Integration Opinion;categoric;Opinion about the neighborhood of foreign nationals and Germans
+Reallocation Plans;categoric;Planning to leave the accommodation unit within two years
+Reallocation Reason;categoric;Reason for a intended reallocation
+Reallocation Destination;categoric;Destination for reallocation
+Economic Situation Opinion;categoric;Opinion about the particular economic situation
+Car;categoric;No. of cars owned by the household
+Gender;categoric;Participant's sex
+Age;numeric;Participant's Age in years
+Marital Status;categoric;Marital status of participant
+Partner Household;categoric;Participant and life partner constitute a household 
+Relative Household;categoric;Participant and his parents or adult children constitute a household 
+Flat Share Household;categoric;Participant shares his housing unit with several unrelated adults.
+Single Parent Houshold;categoric;Participant and his children constitute a household
+One-Person Household;categoric;Participant lives alone in a one-person household
+Occupation;categoric;Occupation
+Labour Time;categoric;Amount of working time
+Profession;categoric;Profession of participant
+Graduation;categoric;Participant school leaving certificate
+Household Size;numeric;How many persons constitue the household (incl. participant)?
+No. Children;numeric;No. of children (0-13 years) in the household
+No. Teens;numeric;No. of Teens (14-17 years) in the household
+No. Adults;numeric;No. of Adults (>18 years) in the household
+No. Earners;categoric;No. of earners in the household
+Income Class;categoric;Income class
+Life Satisfaction;categoric;How satisfied are your with your live?

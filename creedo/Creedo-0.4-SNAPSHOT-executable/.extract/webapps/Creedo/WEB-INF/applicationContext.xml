@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+	   		http://www.springframework.org/schema/context
+	   		http://www.springframework.org/schema/context/spring-context-3.2.xsd
+			http://www.springframework.org/schema/mvc 
+			http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
+
+	<!-- this bean should initialize the static field in the ContextProvider 
+		class, which publishes the application context and the servlet context. -->
+	<bean id="contextReceiver"
+		class="de.unibonn.creedo.common.ContextProvider.ContextReceiver"
+		scope="singleton" />
+
+	<context:property-placeholder location="file:${application.config.file}" />
+
+	<!-- At this point, the properties defined in application.config.file are 
+		available in the Spring context and can be used to initialize other elements. -->
+
+	<bean id="creedoProperties"
+		class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+		<property name="locations">
+			<list>
+				<value>file:${application.config.file}</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="configurationProperties" class="de.unibonn.creedo.ConfigurationProperties">
+		<constructor-arg index="0" ref="creedoProperties" />
+	</bean>
+
+	<!-- bean that configures logging based on application properties file; 
+		hence, this must be instantiated after application properties -->
+	<bean id="loggingConfigurer" class="de.unibonn.creedo.LoggingConfiguration"
+		lazy-init="false">
+	</bean>
+
+	<bean id="dataBackEnd" class="de.unibonn.creedo.setup.DataBackEnd"
+		lazy-init="false">
+		<constructor-arg index="0" ref="configurationProperties" />
+	</bean>
+
+	<bean id="creedoInitializer" class="de.unibonn.creedo.setup.CreedoInitializer"
+		lazy-init="false">
+		<constructor-arg index="0" ref="configurationProperties" />
+		<constructor-arg index="1" ref="dataBackEnd" />
+	</bean>
+
+	<!-- Activates various annotations to be detected in bean classes -->
+	<context:annotation-config />
+
+	<!--<context:property-placeholder location="${configuration.dir:classpath:}" 
+		/> -->
+
+	<!-- Scans the classpath for annotated components that will be auto-registered 
+		as Spring beans. For example @Controller and @Service. Make sure to set the 
+		correct base-package -->
+	<context:component-scan base-package="de.fraunhofer.iais, de.unibonn" />
+
+	<!-- Configures the annotation-driven Spring MVC Controller programming 
+		model. Note that, with Spring 3.0, this tag works in Servlet MVC only! -->
+	<mvc:annotation-driven />
+
+
+	<import resource="email.xml" />
+
+</beans>

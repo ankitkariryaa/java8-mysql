@@ -1,0 +1,6 @@
+[ "de.unibonn.realkd.patterns.NamedPatternCollection$NamedPatternCollectionSerialForm", {
+  "id" : "$results",
+  "name" : "Results",
+  "description" : "Result patterns produced by user.",
+  "patterns" : [ "java.util.ArrayList", [ ] ]
+} ]

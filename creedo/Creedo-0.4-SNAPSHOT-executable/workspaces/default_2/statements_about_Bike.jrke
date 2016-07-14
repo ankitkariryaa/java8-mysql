@@ -1,0 +1,877 @@
+[ "de.unibonn.realkd.data.propositions.DefaultTableBasedPropositionalLogic$DefaultTableBasedPropositionalLogicSerialForm", {
+  "identifier" : "statements_about_Bike",
+  "name" : "Statements about Bike",
+  "description" : "Propositional logic generated using mappers: [CATEGORIC_EQUALiTY, SMART_DISCRETE_ORDINAL, IRREGULAR_4_CUTOFFS_CLUSTERING, POSITIVE_AND_NEGATIVE, YEAR_MONTH_DATE_HOUR]",
+  "tableIdentifier" : "Bike",
+  "attributeIndices" : [ "java.util.ArrayList", [ 0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 4, 4, 4, 5, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 11, 11, 11, 11, 12, 12, 12, 12, 12, 12, 12, 12 ] ],
+  "constraints" : [ "java.util.ArrayList", [ [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "1"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "2"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "3"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "4"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "0"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "1"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "11"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "1"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "12"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "2"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "3"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "4"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "5"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "6"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "7"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "8"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "9"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "10"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : "11",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "11"
+      } ]
+    } ],
+    "name" : ">=11",
+    "description" : "month at least 11"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : "11",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "11"
+      } ]
+    } ],
+    "name" : "=<11",
+    "description" : "month at most 11"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : "1",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "1"
+      } ]
+    } ],
+    "name" : ">=1",
+    "description" : "month at least 1"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : "1",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "1"
+      } ]
+    } ],
+    "name" : "=<1",
+    "description" : "month at most 1"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : "12",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "12"
+      } ]
+    } ],
+    "name" : ">=12",
+    "description" : "month at least 12"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : "12",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "12"
+      } ]
+    } ],
+    "name" : "=<12",
+    "description" : "month at most 12"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : "2",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "2"
+      } ]
+    } ],
+    "name" : ">=2",
+    "description" : "month at least 2"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : "2",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "2"
+      } ]
+    } ],
+    "name" : "=<2",
+    "description" : "month at most 2"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : "3",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "3"
+      } ]
+    } ],
+    "name" : ">=3",
+    "description" : "month at least 3"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : "3",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "3"
+      } ]
+    } ],
+    "name" : "=<3",
+    "description" : "month at most 3"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : "4",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "4"
+      } ]
+    } ],
+    "name" : ">=4",
+    "description" : "month at least 4"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : "4",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "4"
+      } ]
+    } ],
+    "name" : "=<4",
+    "description" : "month at most 4"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : "5",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "5"
+      } ]
+    } ],
+    "name" : ">=5",
+    "description" : "month at least 5"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : "5",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "5"
+      } ]
+    } ],
+    "name" : "=<5",
+    "description" : "month at most 5"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : "6",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "6"
+      } ]
+    } ],
+    "name" : ">=6",
+    "description" : "month at least 6"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : "6",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "6"
+      } ]
+    } ],
+    "name" : "=<6",
+    "description" : "month at most 6"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : "7",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "7"
+      } ]
+    } ],
+    "name" : ">=7",
+    "description" : "month at least 7"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : "7",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "7"
+      } ]
+    } ],
+    "name" : "=<7",
+    "description" : "month at most 7"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : "8",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "8"
+      } ]
+    } ],
+    "name" : ">=8",
+    "description" : "month at least 8"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : "8",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "8"
+      } ]
+    } ],
+    "name" : "=<8",
+    "description" : "month at most 8"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : "9",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "9"
+      } ]
+    } ],
+    "name" : ">=9",
+    "description" : "month at least 9"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : "9",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "9"
+      } ]
+    } ],
+    "name" : "=<9",
+    "description" : "month at most 9"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : "10",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "10"
+      } ]
+    } ],
+    "name" : ">=10",
+    "description" : "month at least 10"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : "10",
+        "comparator" : [ "de.unibonn.realkd.data.table.attribute.OrdinalComparator", {
+          "orderedValueList" : [ "java.util.ArrayList", [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ] ]
+        } ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : "10"
+      } ]
+    } ],
+    "name" : "=<10",
+    "description" : "month at most 10"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "0"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "1"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "0"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "1"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "2"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "3"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "4"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "5"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "6"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "0"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "1"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "1"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "2"
+  } ], [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+    "value" : "3"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+      "treshold" : 0.30125,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=very low",
+    "description" : "very low [-inf,0.30125)"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : 0.30125,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.30125
+      } ]
+    } ],
+    "name" : "=not very low",
+    "description" : "not very low [0.30125, inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+      "treshold" : 0.429384,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=low",
+    "description" : "low [-inf,0.429384)"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : 0.429384,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.429384
+      } ]
+    } ],
+    "name" : "=not low",
+    "description" : "not low [0.429384, inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+      "treshold" : 0.5587500000000001,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=high",
+    "description" : "high (0.5587500000000001,inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : 0.5587500000000001,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.5587500000000001
+      } ]
+    } ],
+    "name" : "=not high",
+    "description" : "not high [-inf,0.5587500000000001]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+      "treshold" : 0.6820835000000001,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=very high",
+    "description" : "very high (0.6820835000000001,inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : 0.6820835000000001,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.6820835000000001
+      } ]
+    } ],
+    "name" : "=not very high",
+    "description" : "not very high [-inf,0.6820835000000001]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+      "treshold" : 0.2853415,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=very low",
+    "description" : "very low [-inf,0.2853415)"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : 0.2853415,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.2853415
+      } ]
+    } ],
+    "name" : "=not very low",
+    "description" : "not very low [0.2853415, inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+      "treshold" : 0.3951955,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=low",
+    "description" : "low [-inf,0.3951955)"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : 0.3951955,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.3951955
+      } ]
+    } ],
+    "name" : "=not low",
+    "description" : "not low [0.3951955, inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+      "treshold" : 0.5063124999999999,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=high",
+    "description" : "high (0.5063124999999999,inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : 0.5063124999999999,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.5063124999999999
+      } ]
+    } ],
+    "name" : "=not high",
+    "description" : "not high [-inf,0.5063124999999999]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+      "treshold" : 0.6262730000000001,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=very high",
+    "description" : "very high (0.6262730000000001,inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : 0.6262730000000001,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.6262730000000001
+      } ]
+    } ],
+    "name" : "=not very high",
+    "description" : "not very high [-inf,0.6262730000000001]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+      "treshold" : 0.4454165,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=very low",
+    "description" : "very low [-inf,0.4454165)"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : 0.4454165,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.4454165
+      } ]
+    } ],
+    "name" : "=not very low",
+    "description" : "not very low [0.4454165, inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+      "treshold" : 0.55875,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=low",
+    "description" : "low [-inf,0.55875)"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : 0.55875,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.55875
+      } ]
+    } ],
+    "name" : "=not low",
+    "description" : "not low [0.55875, inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+      "treshold" : 0.665,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=high",
+    "description" : "high (0.665,inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : 0.665,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.665
+      } ]
+    } ],
+    "name" : "=not high",
+    "description" : "not high [-inf,0.665]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+      "treshold" : 0.7831250000000001,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=very high",
+    "description" : "very high (0.7831250000000001,inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : 0.7831250000000001,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.7831250000000001
+      } ]
+    } ],
+    "name" : "=not very high",
+    "description" : "not very high [-inf,0.7831250000000001]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+      "treshold" : 0.0,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=positive",
+    "description" : "positive (0,inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+      "value" : 0.0
+    } ],
+    "name" : "=0.0",
+    "description" : "zero [0,0]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+      "treshold" : 0.1093185,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=very low",
+    "description" : "very low [-inf,0.1093185)"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : 0.1093185,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.1093185
+      } ]
+    } ],
+    "name" : "=not very low",
+    "description" : "not very low [0.1093185, inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+      "treshold" : 0.1616955,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=low",
+    "description" : "low [-inf,0.1616955)"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : 0.1616955,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.1616955
+      } ]
+    } ],
+    "name" : "=not low",
+    "description" : "not low [0.1616955, inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+      "treshold" : 0.2185835,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=high",
+    "description" : "high (0.2185835,inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : 0.2185835,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.2185835
+      } ]
+    } ],
+    "name" : "=not high",
+    "description" : "not high [-inf,0.2185835]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+      "treshold" : 0.29821,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=very high",
+    "description" : "very high (0.29821,inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : 0.29821,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 0.29821
+      } ]
+    } ],
+    "name" : "=not very high",
+    "description" : "not very high [-inf,0.29821]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+      "treshold" : 2002.0,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=very low",
+    "description" : "very low [-inf,2002.0)"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : 2002.0,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 2002.0
+      } ]
+    } ],
+    "name" : "=not very low",
+    "description" : "not very low [2002.0, inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+      "treshold" : 3157.0,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=low",
+    "description" : "low [-inf,3157.0)"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : 3157.0,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 3157.0
+      } ]
+    } ],
+    "name" : "=not low",
+    "description" : "not low [3157.0, inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+      "treshold" : 4253.5,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=high",
+    "description" : "high (4253.5,inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : 4253.5,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 4253.5
+      } ]
+    } ],
+    "name" : "=not high",
+    "description" : "not high [-inf,4253.5]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+      "treshold" : 5477.5,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=very high",
+    "description" : "very high (5477.5,inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : 5477.5,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 5477.5
+      } ]
+    } ],
+    "name" : "=not very high",
+    "description" : "not very high [-inf,5477.5]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+      "treshold" : 418.0,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=very low",
+    "description" : "very low [-inf,418.0)"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : 418.0,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 418.0
+      } ]
+    } ],
+    "name" : "=not very low",
+    "description" : "not very low [418.0, inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+      "treshold" : 824.0,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=low",
+    "description" : "low [-inf,824.0)"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+        "treshold" : 824.0,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 824.0
+      } ]
+    } ],
+    "name" : "=not low",
+    "description" : "not low [824.0, inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+      "treshold" : 1305.5,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=high",
+    "description" : "high (1305.5,inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : 1305.5,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 1305.5
+      } ]
+    } ],
+    "name" : "=not high",
+    "description" : "not high [-inf,1305.5]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.GreaterThanConstraint", {
+      "treshold" : 2047.5,
+      "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+    } ],
+    "name" : "=very high",
+    "description" : "very high (2047.5,inf]"
+  } ], [ "de.unibonn.realkd.data.constraints.Constraints$NamedConstraint", {
+    "entailedConstraint" : [ "de.unibonn.realkd.data.constraints.OrConstraint", {
+      "firstOperand" : [ "de.unibonn.realkd.data.constraints.LessThanConstraint", {
+        "treshold" : 2047.5,
+        "comparator" : [ "java.util.Comparators$NaturalOrderComparator", "INSTANCE" ]
+      } ],
+      "secondOperand" : [ "de.unibonn.realkd.data.constraints.EqualsConstraint", {
+        "value" : 2047.5
+      } ]
+    } ],
+    "name" : "=not very high",
+    "description" : "not very high [-inf,2047.5]"
+  } ] ] ]
+} ]

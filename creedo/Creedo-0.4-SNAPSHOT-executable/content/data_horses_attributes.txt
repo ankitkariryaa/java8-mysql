@@ -1,0 +1,23 @@
+surgery;categoric;Whether horse was treated with surgery
+age;categoric;Whether horse is young (less than 6 month) or adult
+rect. temp.;numeric;Rectal temperature of horse (�C), normally 37.8, elevated/reduced may occur due to infection/late shock
+pulse;numeric;Heart rate (beats p. min.), 30-40 normal for adults, 20-25 in rare cases of athletic horses, may be elevated with painful lesions or circulatory shock
+resp. rate;numeric;"Respiratory rate; normally 8 to 10; usefulness is doubtful due to the great fluctuations"
+extremity temp.;categoric;Subjective indication of peripheral circulation, cool to cold indicate possible shock, hot should correlate with elevated rectal temp.
+periph. Pulse;categoric;Subjective estimation of peripheral pulse, normal or increased indicative of adequate circulation, reduced or absent indicate poor perfusion
+mucous membr.;categoric;Subjective color of mucous membranes, may indicate normal or slightly increased circulation (normal pink, bright pink) or early shock (pale pink) or serious circulatory compromise (cyanotic) or septicemia (bright red / injected)
+cap. refill time;categoric;Whether capillary refill time is less than 3 seconds or more, long refill corresponds to poor circulation
+pain;categoric;Subjective judgement of pain level, the more painful the more likely surgery is required, prior pain treatment may mask level
+peristalsis;categoric;Indication of activity in gut, activity decreases as horse more distended or becomes more toxic
+abdom. disten.;categoric;Abdominal distension, important parameter that indicates pain and reduced gut motility, when severe then likely to require surgery to relieve pressure
+nasogastric tube;categoric;Whether any gas coming out of tube, large is likely to give horse discomfort
+nasogast. reflux;categoric;Nasogastric reflux, the greater the more likely serious obstruction of fluid passage from rest of intestine
+nasogast. reflux PH;numeric;PH value of nasogastric reflux, normally between 3-4, range from 0-14 with 7 neutral
+rect. examin.;categoric;Rectal examination of feces, absent may indicate obstruction
+abdomen;categoric;Can indicate obstruction caused by mechanical impaction (firm feces in the large intestine) or surgical lesion (distended)
+packed cell vol.;numeric;No. of red cells by volume in blood, normally 30-50, rises as circulation compromised or animal dehydrated
+total protein;numeric;Normally 6-7.5 (gms/dL),  the higher value the greater dehydration
+abdominoc. appear.;categoric;Abdominocentesis appearance obtained by putting needle in the horse's abdomen and inspecting fluid from abdominal cavity, normally clear while cloudy or serosanguinous indicates compromised gut
+abdomcent. protein;numeric;Abdominocentesis appearance (gms/dL), higher is more likely to have compromised gut
+outcome;categoric;What happened to horse finally
+surgical_lesion;categoric;Whether the problem (lesion) was surgical, determined retrospectively by authopsie if not previously operated

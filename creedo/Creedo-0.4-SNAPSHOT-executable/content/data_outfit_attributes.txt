@@ -1,0 +1,232 @@
+﻿part_nr;name;ID of participant
+Outfit Significance;ordinal;Significance of clothes;Unimportant,Of Little Importance,Important,Very Important
+Dressing (Outfit);categoric;It's fascinating for me to slip into different roles by wearing different outfits.
+Outfit Conformity;categoric;My clothes shall demonstrate that I belong to a particular peer group.
+Body-con clothing;categoric;I like wearing clothes that accentuate my body figure.
+Self assurance (Outfit);categoric;If I'm well dressed I feel more self-confident. 
+Functional clothing;categoric;A appreciate functional clothes with embedded IT-gadgets (e.g. MP3-Player).
+Cleanliness;categoric;My clothes must be clean and neat.
+Individuality;categoric;I don't care about what other people think of my clothes as long as I like them. 
+Proven Clothing Habits;categoric;I do not like to change my outfit style. I rather stick to my habitual style.
+Risk aversive clothing;categoric;I prefer to dress unobtrusive.
+Comfort clothing;categoric;My outfit motto: dress comfortable and useful.
+Shallowness;categoric;I judge people on their outfit.
+Outfit as Status Indicator;categoric;The outfit style of people indicates their social position.
+Style Sympathy;categoric;Persons with a similar fashion style are immediately likeable to me.
+Eco-Friendly Clothing;categoric;I only buy clothes with an emission permit if applicable.
+High Fashion Clothing;categoric;I buy fewer clothes but preferably exclusive items.
+Discount Clothing;categoric;Discounter also offer trendy clothes nowadays.
+Style Uncertainty;categoric;I often doubt my style.
+Trendsetting;categoric;I'm always in search for new dressing ideas.
+Trendy Outfits ;categoric;I know fashion In's and Out's.
+Outfit as Character Indicator;categoric;I believe that clothes say a lot about personality. 
+Conservative Clothing;categoric;Nowadays fashion trends are too crazy to be wearable.
+Fashion Sense;categoric;I have a reliable sense of style and select only suitable items from current trends.
+Trend Observation;categoric;I wait and see if fashion trends can take roots before I join them.
+Fashion Disorientation;categoric;Nowadays, it's difficult for me to find pretty clothes due to the increasing fashion variety.
+Peer Group Brand Preference;categoric;I mostly buy clothes and brands my friends will like as well.
+Brand Recognition;categoric;I appreciate if everyone can recognize my clothes' brands.
+Brand Prestige;categoric;I believe that exclusive brands raise your self-assurance.
+Brand Image;categoric;Just particular brands guarantee top-quality.
+Brand Loyalty;categoric;I stick to a brand if I am convinced of it.
+Brand Name Fees;categoric;With higher-end brands, you pay for the name but the quality of products is not surpassing.
+Smart Shopping;categoric;I only buy brand clothes for reduced prices (e.g. as special offers).
+Adidas;categoric;Brand Awareness "Adidas"
+Aigner;categoric;Brand Awareness "Aigner"
+Airfield;categoric;Brand Awareness "Airfield"
+Armani Jeans;categoric;Brand Awareness "Armani Jeans"
+Barbour;categoric;Brand Awareness "Barbour"
+Basler;categoric;Brand Awareness "Basler"
+Benetton;categoric;Brand Awareness "Benetton"
+Bogner;categoric;Brand Awareness "Bogner"
+Boss;categoric;Brand Awareness "Boss"
+Brax;categoric;Brand Awareness "Brax"
+Bugatti;categoric;Brand Awareness "Bugatti"
+Burberry;categoric;Brand Awareness "Burberry"
+Calvin Klein;categoric;Brand Awareness "Calvin Klein"
+Camel Active;categoric;Brand Awareness "Camel Active"
+Chanel;categoric;Brand Awareness "Chanel"
+Christ;categoric;Brand Awareness "Christ"
+Cinque;categoric;Brand Awareness "Cinque"
+Closed;categoric;Brand Awareness "Closed"
+Comma;categoric;Brand Awareness "Comma"
+Daks;categoric;Brand Awareness "Daks"
+Daniel Hechter;categoric;Brand Awareness "Daniel Hechter"
+Diesel;categoric;Brand Awareness "Diesel"
+Dior;categoric;Brand Awareness "Dior"
+Dockers;categoric;Brand Awareness "Dockers"
+Dolce Gabbana;categoric;Brand Awareness "Dolce & Gabbana"
+Eduard Dressler;categoric;Brand Awareness "Eduard Dressler"
+Emporio Armani;categoric;Brand Awareness "Emporio Armani"
+Escada;categoric;Brand Awareness "Escada"
+Esprit;categoric;Brand Awareness "Esprit"
+Eterna;categoric;Brand Awareness "Eterna"
+Falke;categoric;Brand Awareness "Falke"
+Fay;categoric;Brand Awareness "Fay"
+Gant;categoric;Brand Awareness "Gant"
+Gardeur;categoric;Brand Awareness "Gardeur"
+Gerry Weber;categoric;Brand Awareness "Gerry Weber"
+Giorgio Armani;categoric;Brand Awareness "Giorgio Armani"
+GStar;categoric;Brand Awareness "G-Star"
+GuessJeans;categoric;Brand Awareness "Guess (Jeans)"
+H&M;categoric;Brand Awareness "H&M"
+Hermes;categoric;Brand Awareness "Hermes"
+Hiltl;categoric;Brand Awareness "Hiltl"
+Hugo;categoric;Brand Awareness "Hugo"
+Jack Wolfskin;categoric;Brand Awareness "Jack Wolfskin"
+Jacques Britt;categoric;Brand Awareness "Jacques Britt"
+Jil Sander;categoric;Brand Awareness "Jil Sander"
+Joker;categoric;Brand Awareness "Joker"
+Joop;categoric;Brand Awareness "Joop"
+La Martina;categoric;Brand Awareness "La Martina"
+Lacoste;categoric;Brand Awareness "Lacoste"
+Lanvin;categoric;Brand Awareness "Lanvin"
+Levis;categoric;Brand Awareness "Levis"
+Louis Vuitton;categoric;Brand Awareness "Louis Vuitton"
+MAC;categoric;Brand Awareness "MAC"
+Mango;categoric;Brand Awareness "Mango"
+Marc O'Polo;categoric;Brand Awareness "Marc O'Polo"
+Marc Cain;categoric;Brand Awareness "Marc Cain"
+Max Mara;categoric;Brand Awareness "Max Mara"
+Mexx;categoric;Brand Awareness "Mexx"
+Miss Sixty;categoric;Brand Awareness "Miss Sixty"
+Murphy&Nye;categoric;Brand Awareness "Murphy + Nye"
+Napapijri;categoric;Brand Awareness "Napapijri"
+New Yorker;categoric;Brand Awareness "New Yorker"
+Nike;categoric;Brand Awareness "Nike"
+Olymp;categoric;Brand Awareness "Olymp"
+Parajumpers;categoric;Brand Awareness "Parajumpers"
+Pepe Jeans;categoric;Brand Awareness "Pepe Jeans"
+Peter Hahn;categoric;Brand Awareness "Peter Hahn"
+Peurerey;categoric;Brand Awareness "Peuterey"
+Prada;categoric;Brand Awareness "Prada"
+Puma;categoric;Brand Awareness "Puma"
+Ralph Lauren;categoric;Brand Awareness "Ralph Lauren"
+Reebok;categoric;Brand Awareness "Reebok"
+Rene Lezard;categoric;Brand Awareness "Rene Lezard"
+Replay;categoric;Brand Awareness "Replay"
+S.Oliver;categoric;Brand Awareness "S. Oliver"
+Salvatore Ferragamo;categoric;Brand Awareness "Salvatore Ferragamo"
+Schoeffel;categoric;Brand Awareness "Schoeffel"
+Stefanel;categoric;Brand Awareness "Stefanel"
+Strellson;categoric;Brand Awareness "Strellson"
+Strenesse Blue;categoric;Brand Awareness "Strenesse Blue"
+Strenesse Gabriele Strehle;categoric;Brand Awareness "Strenesse Gabriele Strehle"
+North Face;categoric;Brand Awareness "The North Face"
+Timberland;categoric;Brand Awareness "Timberland"
+Tom Tailor;categoric;Brand Awareness "Tom Tailor"
+Tommy Hilfiger;categoric;Brand Awareness "Tommy Hilfiger"
+Trigema;categoric;Brand Awareness "Trigema"
+Van Laack;categoric;Brand Awareness "Van Laack"
+Wellensteyn;categoric;Brand Awareness "Wellensteyn"
+Wilvorst;categoric;Brand Awareness "Wilvorst"
+Windsor;categoric;Brand Awareness "Windsor"
+Woolrich;categoric;Brand Awareness "Woolrich"
+Ermengildo Zegna;categoric;Brand Awareness "Ermenegildo Zegna"
+Shopaholism;categoric;Sometimes, I fall prey to a clothes shopping frenzy sometimes.
+Long-distance Shopping;categoric;I accept a longer drive to get really cool clothes.
+Crossover Shopping;categoric;I mix up high fashion and low fashion brands.
+Sale Shopping;categoric;I prefer to buy clothes in sale.
+Rationally Shopping;categoric;I compare offers of different shops before I decide to buy a particular fashion item.
+Individual Shopping;categoric;I preferably buy clothes in shops that provide a personal atmosphere.
+Partner Vesting;categoric;I don't mind if my partner buys my clothes.
+Mail Order Preference;categoric;I prefer to by clothes in mail-order catalogues.
+First Hand Preference;categoric;I would never ever buy second hand clothes.
+Info. Fashion Shows;categoric;Before I buy new clothes, I gather information from ... 
+Info. Magazines;categoric;Before I buy new clothes, I gather information from ... 
+Info. Newspapers;categoric;Before I buy new clothes, I gather information from ... 
+Info. On-line;categoric;Before I buy new clothes, I gather information ... 
+Info. TV;categoric;Before I buy new clothes, I gather information from ... 
+Info. Billboards;categoric;Before I buy new clothes, I gather information from ... 
+Info. Leaflets;categoric;Before I buy new clothes, I gather information from ... 
+Info. Showcases;categoric;Before I buy new clothes, I gather information from ... 
+Info. Mail-order Catalogues;categoric;Before I buy new clothes, I gather information from ... 
+Info. Boutiques;categoric;Before I buy new clothes, I gather information from ... 
+Info. Not at all;categoric;Before I buy new clothes, I gather information ... 
+Brand Criterion;categoric;How important is the ... to you, when buying clothes?
+Price Criterion;categoric;How important is the ... to you, when buying clothes?
+Sewing Quality Criterion;categoric;How important is the ... to you, when buying clothes?
+Trendiness Criterion;categoric;How important is the ... to you, when buying clothes?
+Brand Name Criterion;categoric;How important is the ... to you, when buying clothes?
+Good Value  Criterion;categoric;How important is the Price-Performance-Ratio to you, when buying clothes?
+PoS Dept. Store;categoric;Point of Sale: How often do you buy clothes in a ...? E.g.: Karstadt, Kaufhof, KaDeWe
+PoS Clothing Store;categoric;Point of Sale: How often do you buy clothes in a larger ... which  offer different brands? E.g.: Peek & Cloppenburg, Woehrl, Breuninger, Pohland, Appelrath & Cuepper
+PoS Multi-Brand Store;categoric;Point of Sale: How often do you buy clothes in a ...?
+PoS Single-Brand Store (Big);categoric;Point of Sale: How often do you buy clothes in a larger ...? E.g.: H&M, C&A, Zara
+PoS Mono-Brand Store (Small);categoric;Point of Sale: How often do you buy clothes in a ...? E.g.: Boss, Prada, Biba, Orsay
+PoS Boutique;categoric;Point of Sale: How often do you buy clothes in a ...?
+PoS Sports Shop;categoric;Point of Sale: How often do you buy clothes in a ...?
+PoS Factory Outlet Centre;categoric;Point of Sale: How often do you buy clothes in a ...? E.g.: Wertheim Village
+PoS Mail-order Catalogue;categoric;Point of Sale: How often do you buy clothes in a ...? E.g.: Otto, Bader
+PoS Textile Discounter;categoric;Point of Sale: How often do you buy clothes in a ...? E.g.: Adler, Takko, KiK
+PoS Self-service Dept. Store;categoric;Point of Sale: How often do you buy clothes in a ...? E.g.: Real, Toom
+PoS Food Discounter;categoric;Point of Sale: How often do you buy clothes in a ...? E.g.: Aldi, Lidl, Penny, Plus
+PoS Food Supermarket;categoric;Point of Sale: How often do you buy clothes in a ...? E.g.: Edeka, REWE, Tengelmann
+PoS Coffee Shop;categoric;Point of Sale: How often do you buy clothes in a ...? E.g.: Tchibo
+PoS Shopping Mall;categoric;Point of Sale: How often do you buy clothes in a ...?
+PoS On-line;categoric;Point of Sale: How often do you buy clothes on-line in general?
+PoS On-line Shops;categoric;Point of Sale: How often do you buy clothes in a ...? E.g.: amazon.de, zalando.de, otto,de
+PoS On-line Auction;categoric;Point of Sale: How often do you buy clothes in a ...? E.g.: ebay.de
+PoS On-line Shopping Club;categoric;Point of Sale: How often do you buy clothes in a ...? E.g.: pauldirect.de, barnds4friends.de
+PoS On-line Shopping Portal;categoric;Point of Sale: How often do you buy clothes in a ...? E.g.: Tradoria, Yatego
+PoS On-line Group Shops;categoric;Point of Sale: How often do you buy clothes in a ...? E.g.: groupon.de, citydeal.de, dailydeal.de
+Brand Awareness;numeric;Brand Awareness Clothes (No. of observed brands)
+Brand Possession;numeric;Brand Ownership (No. of observed brands)
+Brand Propensity;numeric;Propensity to buy branded products (No. of observed brands)
+Wrist Watch;numeric;No. of owned wrist watches
+Wrist Watch Value;numeric;A precious wrist watch costs at least ... Euro.
+Age;numeric;Age of participant in years
+Household Size;numeric;Household size
+Personal Income (Netto);numeric;Participant's Income (per month; netto)
+Household Income (Netto);numeric;Household Income (per month; netto)
+Earner Number;numeric;Number of earners in the household
+Survey Month;categoric;Survey month
+Survey Weekday;numeric;Survey weekday
+No. Infants;numeric;No. of children of the age 0-6
+No. Children;numeric;No. of children of the age 7-13
+No. Teens;numeric;No. of persons of the age 14-17
+No. Adults;numeric;No. of persons of the age 18-64
+No. Elderlies;numeric;No. of persons older than 65 years
+Gender;categoric;Sex of participant
+No. Coats;numeric;Coat Purchase Frequency (p.a., incl. multiple-item purchases)
+No. Suits;numeric;Suits Purchase Frequency (p.a., incl. multiple-item purchases)
+No. Suit trousers;numeric;Classical Suit Trousers Purchase Frequency (p.a., incl. multiple-item purchases)
+No. Pants;numeric;Pants Purchase Frequency (p.a., incl. multiple-item purchases)
+No. Jeans;numeric;Jeans Purchase Frequency (p.a., incl. multiple-item purchases)
+No. Blazer;numeric;Blazer Purchase Frequency (p.a., incl. multiple-item purchases)
+No. Jacket;numeric;Jacket Purchase Frequency (p.a., incl. multiple-item purchases)
+No. Leather Jacket;numeric;Leather Jacket Purchase Frequency (p.a., incl. multiple-item purchases)
+No. Skirt;numeric;Skirt Purchase Frequency (p.a., incl. multiple-item purchases)
+No. Dress;numeric;Dress Purchase Frequency (p.a., incl. multiple-item purchases)
+No. Blouse / Shirt;numeric;Blouse Purchase Frequency (p.a., incl. multiple-item purchases)
+No. T-Shirt;numeric;Purchase Frequency T-Shirt (p.a., incl. multiple-item purchases)
+No. Sweatshirt;numeric;Purchase Frequency Sweatshirt (p.a., incl. multiple-item purchases)
+No. Knitting Shirt;numeric;Purchase Frequency Knitting Shirt  (p.a., incl. multiple-item purchases)
+No. Casual Clothes;numeric;Purchase Frequency Casual Clothes (p.a., incl. multiple-item purchases)
+No. Outdoor Clothes;numeric;Purchase Frequency Outdoor Clothes (p.a., incl. multiple-item purchases)
+No. Sportswear;numeric;Purchase Frequency p. a. Sportswear (p.a., incl. multiple-item purchases)
+No. Lingerie;numeric;Purchase Frequency Lingerie items (p.a., incl. multiple-item purchases)
+No. Leggings;numeric;Purchase Frequency Leggings (p.a., incl. multiple-item purchases)
+No. Stockings;numeric;Purchase Frequency Stocking items (p.a., incl. multiple-item purchases)
+No. Clothes;numeric;Purchase Frequency Clothes (p.a., incl. multiple-item purchases)
+Exp. Coats;numeric; Average Expenditures for Coats (p.a., incl. multiple-item purchases)
+Exp. Suits;numeric;Average Expenditures Suits (p.a., incl. multiple-item purchases)
+Exp. Suits Trousers;numeric;Average Expenditures for Suit Trousers (p.a., incl. multiple-item purchases)
+Exp. Pants;numeric;Average Expenditures for Pants (p.a., incl. multiple-item purchases)
+Exp. Jeans;numeric;Average Expenditures for Jeans (p.a., incl. multiple-item purchases)
+Exp. Blazer;numeric;Average Expenditures for Blazers (p.a., incl. multiple-item purchases)
+Exp. Jacket;numeric;Average Expenditures for Jackes (p.a., incl. multiple-item purchases)
+Exp. Leather Jacket;numeric;Average Expenditures for Leather Jackets (p.a., incl. multiple-item purchases)
+Exp. Skirt;numeric;Average Expenditures for Skirts (p.a., incl. multiple-item purchases)
+Exp. Dress;numeric;Average Expenditures for Dresses (p.a., incl. multiple-item purchases)
+Exp. Blouse/Shirt;numeric;Average Expenditures for Blouses (f)/Shirts (m) (p.a., incl. multiple-item purchases)
+Exp. T-Shirt;numeric;Average Expenditures for T-Shirts (p.a., incl. multiple-item purchases)
+Exp. Sweatshirt;numeric;Average Expenditures for Sweatshirts (p.a., incl. multiple-item purchases)
+Exp. Knitting Shirt;numeric;Average Expenditures for Knitting Shirts (p.a., incl. multiple-item purchases)
+Exp. Casual Clothes;numeric;Average Expenditures for Casual Clothes Items (p.a., incl. multiple-item purchases)
+Exp. Outdoor Clothes;numeric;Average Expenditures for Outdoor Clothes Items (p.a., incl. multiple-item purchases)
+Exp. Sportswear;numeric;Average Expenditures for Sportswear Items (p.a., incl. multiple-item purchases)
+Exp. Lingerie;numeric;Average Expenditures for Lingerie Items (p.a., incl. multiple-item purchases)
+Exp. Leggings;numeric;Average Expenditures for Leggings (p.a., incl. multiple-item purchases)
+Exp. Stockings;numeric;Average Expenditures for Stocking Items (p.a., incl. multiple-item purchases)
+Exp. Clothes;numeric;Average Expenditures for Clothes in General (p.a., incl. multiple-item purchases)

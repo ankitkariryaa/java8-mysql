@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+	namespace="de.unibonn.creedo.studies.state.mybatisimpl.OldCreedoStudyStateMapper">
+
+	<resultMap id="ResultMap"
+		type="de.unibonn.creedo.webapp.studies.ResultDataContainer">
+		<id property="resultId" column="id" />
+		<result property="sessionId" column="session_id" />
+		<result property="resultBuilderContent" column="result_builder_content" />
+		<result property="secondsInSessionUntilSaved" column="seconds_in_session_until_saved" />
+	</resultMap>
+
+	<resultMap
+		type="de.unibonn.creedo.studies.state.mybatisimpl.MyBatisTrialSessionQueryResult"
+		id="TrialSessionResultMap">
+		<id property="sessionId" column="id" />
+		<result property="userId" column="user_id" />
+		<result property="taskName" column="task_name" />
+		<result property="systemName" column="system_name" />
+		<result property="endTime" column="end_time" />
+	</resultMap>
+
+	<select id="getLastInsertedId" resultType="integer">
+		select
+		LAST_INSERT_ID();
+	</select>
+
+	<select id="getAllResultIds" resultType="int">
+		select `id` from
+		`study__task_session_results`;
+	</select>
+
+	<select id="getAllTrialSessionIds" resultType="int">
+		select
+		`id` from
+		`study__sessions`;
+	</select>
+
+	<select id="getResult" parameterType="int" resultMap="ResultMap">
+		select
+		*
+		from `study__task_session_results`
+		where
+		`id` = #{id};
+	</select>
+
+	<select id="getResultsWhere" parameterType="map" resultMap="ResultMap">
+		select
+		`study__task_session_results`.`id`, `session_id`,
+		`result_builder_content`, `seconds_in_session_until_saved` from
+		`study__sessions` join `study__task_session_results`
+		on
+		study__sessions.id=study__task_session_results.session_id
+		where
+		`study_name` = #{study_name}
+		and
+		${condition};
+	</select>
+
+	<insert id="addResult" parameterType="map">
+		insert into
+		`study__task_session_results` (`id` , `session_id`,
+		`result_builder_content`,
+		`seconds_in_session_until_saved`)
+		values
+		(#{result_id},#{session_id},
+		#{result_builder_content},
+		#{result_seconds_until_saved});
+	</insert>
+
+	<insert id="addResultWithAutoId" parameterType="map">
+		insert into
+		`study__task_session_results` (`session_id`,
+		`result_builder_content`,
+		`seconds_in_session_until_saved`)
+		values
+		(#{session_id},
+		#{result_builder_content},
+		#{result_seconds_until_saved});
+	</insert>
+
+	<select id="getTrialSessionsWhere" parameterType="map"
+		resultMap="TrialSessionResultMap">
+		select * from `study__sessions`
+		where `study_name` =
+		#{study_name} and ${condition};
+	</select>
+
+	<insert id="addTrialSession" parameterType="map">
+		insert into
+		`study__sessions` (`id`,`study_name`, `user_id`, `task_name`,
+		`system_name`, `end_time`)
+		values (#{session_id}, #{session.studyName},
+		#{session.user.id},
+		#{session.task.name}, #{session.system.name},
+		#{session.endDate});
+	</insert>
+
+	<insert id="addTrialSessionWithAutoId" parameterType="map">
+		insert into
+		`study__sessions` (`study_name`, `user_id`, `task_name`,
+		`system_name`, `end_time`)
+		values (#{session.studyName},
+		#{session.user.id},
+		#{session.task.name},
+		#{session.system.name},
+		#{session.endDate});
+	</insert>
+
+</mapper>

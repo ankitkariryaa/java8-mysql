@@ -1,0 +1,14 @@
+input.intentionalInput {
+    padding: 1pt;
+    width: 200px;
+}
+
+select.extensionalInput {
+    padding: 1pt;
+    width: 200px;
+}
+
+div.withPadding {
+    padding-top: 2pt;
+    padding-bottom: 4pt;
+}

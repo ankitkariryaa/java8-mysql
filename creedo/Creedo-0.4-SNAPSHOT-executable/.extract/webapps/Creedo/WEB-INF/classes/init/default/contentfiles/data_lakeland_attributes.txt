@@ -1,0 +1,5 @@
+Region;categoric;descr
+Species;categoric;descr
+Annual Income;numeric;descr
+Annual Health Spend;numeric;descr
+Happiness;categoric;descr

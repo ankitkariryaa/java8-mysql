@@ -1,0 +1,4 @@
+# additional mime type mappings that are taken into
+# account by creedo.utils.Mimetypes.java.
+# format is <mime type> <space separated file extensions>
+text/css css

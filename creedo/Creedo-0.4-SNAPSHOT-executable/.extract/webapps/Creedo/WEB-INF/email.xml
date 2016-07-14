@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       
+	<bean id="mailService" class="de.unibonn.creedo.webapp.service.MailService">
+        <property name="mailSender" ref="mailSender"/>
+        <property name="senderEmail" value="${creedo.mail.sendername}"/>
+    </bean>
+
+    <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+        <property name="host" value="${creedo.mail.host}"/>
+        <property name="port" value="${creedo.mail.port}"/>
+        <property name="protocol" value="${creedo.mail.protocol}"/>
+
+<!--
+        <property name="host" value="smtp.gmail.com"/>
+        <property name="port" value="587"/>
+        <property name="username" value="oneclick@iais.fraunhofer.de"/>
+        <property name="password" value="MineAllPatterns"/>
+-->
+
+        <property name="username" value="${creedo.mail.smtp.auth.username}"/>
+        <property name="password" value="${creedo.mail.smtp.auth.password}"/>
+
+        <property name="javaMailProperties">
+            <props>
+                <prop key="mail.smtp.starttls.enable">${creedo.mail.smtp.starttls.enable}</prop>
+                <prop key="mail.smtp.auth">${creedo.mail.smtp.auth}</prop>
+                <prop key="mail.smtps.ssl.enable">${creedo.mail.smtps.ssl.enable}</prop>
+                <prop key="mail.smtps.ssl.trust">*</prop>
+                <prop key="mail.smtps.connectiontimeout">${creedo.mail.smtps.connectiontimeout}</prop>
+                <prop key="mail.smtps.timeout">${creedo.mail.smtps.timeout}</prop>
+            </props>
+        </property>
+    </bean>
+    
+</beans>

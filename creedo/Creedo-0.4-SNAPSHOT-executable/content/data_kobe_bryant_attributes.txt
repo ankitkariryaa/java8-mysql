@@ -1,0 +1,29 @@
+Month;ordinal;Month;10,11,12,1,2,3,4
+HomeAway;categoric;Home or away game
+Opponent;categoric;Opposing team
+Period;ordinal;Game period;1,2,3,4,5,6
+SecondsLeftPeriod;numeric;Seconds left to play in the period
+SecondsLeftGame;numeric;Seconds left to play in the game
+SecondsPassedPeriod;numeric;Seconds passed in the period
+SecondsPassedGame;numeric;Seconds passed in the game
+Adam_Morrison;categoric;Adam Morrison on the court?
+Andrew_Bynum;categoric;Andrew Bynum on the court?
+DJ_Mbenga;categoric;DJ Mbenga on the court?
+Derek_Fisher;categoric;Derek Fisher on the court?
+Jordan_Farmar;categoric;Jordan Farmar on the court?
+Josh_Powell;categoric;Josh Powell on the court?
+Lamar_Odom;categoric;Lamar Odom on the court?
+Luke_Walton;categoric;Luke Walton on the court?
+Pau_Gasol;categoric;Pau Gasol on the court?
+Ron_Artest;categoric;Ron Artest on the court?
+Sasha_Vujacic;categoric;Sasha Vujacic on the court?
+Shannon_Brown;categoric;Shannon Brown on the court?
+Type;categoric;Shot type
+Assisted;categoric;Shot assisted by a teammate?
+AssistBy;categoric;Who assisted a shot
+Blocked;categoric;Shot blocked by an opponent?
+ReboundBy;categoric;Team that rebounded a missed shot
+Fouled;categoric;Extra free-throw due to a foul? (“and-one”)
+X;numeric;X-coordinate of the shot location
+Y;numeric;Y-coordinate of the shot location
+Result;categoric;Made or missed?

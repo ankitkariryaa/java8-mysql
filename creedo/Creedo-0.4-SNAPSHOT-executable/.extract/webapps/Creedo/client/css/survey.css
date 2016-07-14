@@ -1,0 +1,22 @@
+.surveyBar {
+    background-color: white;
+    border: thin solid #d3d3d3;
+    border-radius: 4px;
+}
+.surveyBarHeight {
+    height: 2em;
+}
+
+.surveyHeader {
+    font-weight: 500;
+    line-height: 1.1;
+    vertical-align: top;
+}
+
+.surveyContent {
+    margin: 2em;
+}
+
+.bold {
+    font-weight: bold;
+}

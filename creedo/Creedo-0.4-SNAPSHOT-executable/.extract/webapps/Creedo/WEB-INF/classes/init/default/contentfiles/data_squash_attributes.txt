@@ -1,0 +1,25 @@
+site;categoric;where fruit is located 
+days a. flow.;numeric;number of days after flowering 
+fruit id;categoric;individual number of the fruit (not unique) 
+weight;numeric;weight of whole fruit (g) 
+weight a. store.;numeric;weight of fruit after storage 
+pene;numeric;penetrometer indicates maturity of fruit at harvest 
+solids;numeric;a test for dry matter 
+brix;numeric;a refactometer measurement used to indicate sweetnes or ripeness  of the fruit 
+a*;numeric;the a* coordinate of the HunterLab L* a* b* notation of colour measurement
+egdd;numeric;the heat accumulation above a base of 8c from emergence of the plant to harvest of the fruit
+fgdd;numeric;the heat accumulation above a base of 8c from flowering to harvesting
+ground a*;numeric;the number indicating colour of skin where the fruit rested on the ground
+glucose;numeric;measured in mg/100g of fresh weight 
+fructose;numeric;measured in mg/100g of fresh weight 
+sucrose;numeric;measured in mg/100g of fresh weight 
+total;numeric;measured in mg/100g of fresh weight 
+glucose+fructos;numeric;measured in mg/100g of fresh weight 
+starch;numeric;measured in mg/100g of fresh weight 
+sweetness;numeric;"the mean of eight taste panel scores; out of 1500"
+flavour;numeric;"the mean of eight taste panel scores; out of 1500"
+dry/moist;numeric;"the mean of eight taste panel scores; out of 1500"
+fibre;numeric;"the mean of eight taste panel scores; out of 1500"
+heat a. harvest;numeric;the amount of heat emergence after harvest 
+heat b. flower;numeric;the amout of heat input before flowering 
+acceptability;categoric;the acceptability of the fruit

@@ -1,0 +1,51 @@
+Area Code;name;District Code as used in DB of Swiss Federal Statistics Office
+Area Name;name;Area Name
+Type;categoric;Geographic type of area
+Region;categoric;Geographic region of area
+Canton;categoric;Swiss Canton
+Language;categoric;Predominant language
+Pop. Density;numeric;Population density per square km
+Pop. Change;numeric;Change of Inhabitants (in %) (2010-11)
+Pop. Change by Migration;numeric;??
+Foreign Persons;numeric;Percentage (%) of inhabitants (2011) with non-swiss passport
+Protestants;numeric;Percentage (%) of inhabitants (2000) 
+Catholics;numeric;Percentage (%) of inhabitants (2000) 
+Moslems;numeric;Percentage (%) of inhabitants (2000) 
+Without Confession;numeric;Percentage (%) of inhabitants (2000) 
+Young People;numeric;Percentage (%) of inhabitants (2011) between ??-??
+Mid-aged People;numeric;Percentage (%) of inhabitants (2011) between ??-??
+Elderly People;numeric;numeric
+Modern family structures;numeric;Percentag of unmarried persons at population
+Traditional family structure;numeric;Percentage of married persons
+Settlement Area;numeric;Percentage (%) of total area occupied by settlement (1992/97)
+Agricultural Area;numeric;Percentage (%) of agriculturally used area wrt. to total area (1992/97)
+Forest Area;numeric;Percentage (%) of woodland wrt. to total area (1992/97)
+1st sector employees;numeric;Percentage (%) of employees working in 1st econ. sector (2008)
+2st sector employees;numeric;Percentage (%) of employees working in 2nd econ. sector (2008)
+3st sector employees;numeric;Percentage (%) of employees working in 3rd econ. sector (2008)
+Building activity;numeric;Number of new apartments per 1000 inhabitants (2010)
+Vacant apartments;numeric;??
+Social welfare;numeric;Social welfare ratio (2011)
+FDP Gain;numeric;Gain of votes for liberal party 2007-2011 among valid votes (diff. in percentage points)
+CVP Gain;numeric;Gain of votes for christian-democratic party 2007-2011 among valid votes (diff. in percentage points)
+SPS Gain;numeric;Gain of votes for center-left party 2007-2011 among valid votes (diff. in percentage points)
+SVP Gain;numeric;Gain of votes for national conservative party 2007-2011 among valid votes (diff. in percentage points)
+BDP Gain;numeric;Gain of votes for moderate center-right party 2007-2011 among valid votes (diff. in percentage points)
+EVP Gain;numeric;Gain of votes for center-christian party 2007-2011 among valid votes (diff. in percentage points)
+glp Gain;numeric;Gain of votes for liberal-green party 2007-2011 among valid votes (diff. in percentage points)
+AL Gain;numeric;Gain of votes for left party 2007-2011 among valid votes (diff. in percentage points)
+GPS Gain;numeric;Gain of votes for green party 2007-2011 among valid votes (diff. in percentage points)
+Elect. Particptn. Gain;numeric;Gain of valid votes in federal elections betw. 2007 and 2011 (diff. in percentage points)
+FDP;numeric;Percentage (%) of votes for liberal party 2011
+CVP;numeric;Percentage (%) of votes for christian democratic party 2011
+SPS;numeric;Percentage (%) of votes for center-left party 2011
+SVP;numeric;Percentage (%) of votes for national conservative party 2011
+BDP;numeric;Percentage (%) of votes for center-right party 2011
+EVP;numeric;Percentage (%) of votes for center-christian (catholic & evangelic) fraction 2011
+glp;numeric;Percentage (%) of votes for liberal-green party 2011
+AL;numeric;Percentage (%) of votes for left fraction 2011
+GPS;numeric;Percentage (%) of votes for green party 2011
+Small right parties;numeric;Percentage (%) of votes for several small right parties 2007-2011 among valid votes (diff. in percentage points)
+Elect. Particptn.;numeric;Percentage (%) of valid votes in federal elections 2011
+Yes-Votes;numeric;Percentage (%) of Yes-Votes for Swiss Migration Referendum Feb. 2014
+Alpine Tourism;categoric;Is the district an alpine tourism destination?

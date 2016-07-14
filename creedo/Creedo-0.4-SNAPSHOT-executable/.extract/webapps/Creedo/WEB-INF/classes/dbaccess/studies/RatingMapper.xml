@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="de.unibonn.creedo.studies.RatingMapper">
+
+    <select id="getRatingIdsGivenByUserInStudy" parameterType="map" resultType="int">
+        select id from study__result_ratings where user_id = #{user_id} and study_name = #{study_name};
+    </select>
+    
+    <insert id="saveRating" parameterType="map">
+        insert into `study__result_ratings` (`user_id`, `study_name`, `result_id`, `metric`, `value`)
+        values (#{user_id}, #{study_name}, #{result_id}, #{metric}, #{value});
+    </insert>
+</mapper>

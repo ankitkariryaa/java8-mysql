@@ -1,0 +1,56 @@
+.navbar-nav>li>a {
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+
+.navbar {
+	min-height: 32px !important
+}
+
+.navbar-inverse {
+	background-color: #18BC9C;
+	/* 	background-color: #454545; */
+	border-width: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #FFF;
+}
+
+/* Page Sections */
+.section, .section-colored {
+	padding: 50px 0;
+}
+
+.section-colored {
+	background-color: #e1e1e1;
+	/* change this to change the background color of a colored section */
+}
+
+a {
+	    color: #18BC9C;
+	/* 	color: #babdb6; */
+	text-decoration: none;
+}
+
+/* a:hover, a:focus { */
+/* 	color: #00bcf2; */
+/* 	text-decoration: underline; */
+/* } */
+
+.img-home-portfolio, .img-customer, .portfolio-item {
+	margin-bottom: 30px;
+}
+
+.img-border {
+	border: 1px solid #021a40;
+}
+
+.form-control.file-upload {
+	height: auto;
+}
+
+.vertical-align {
+	display: flex;
+	align-items: center;
+}

@@ -1,0 +1,231 @@
+body#dashboard {
+	overflow: hidden;
+}
+
+.tooltip-inner {
+	max-width: 300px !important;
+}
+
+#content-table .dataTables_wrapper.no-footer .dataTables_scrollBody {
+	border-bottom: none;
+}
+
+#content-table .dataTables_filter {
+	display: none;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.dataTables_wrapper .dataTables_info {
+	padding-top: 0.25em !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+	padding: 0 !important;
+}
+
+.left-column {
+	border-right: 1px solid #eee;
+}
+
+.left-column #row-resizer {
+	font-size: 23px;
+	position: absolute;
+	top: -4px;
+	border: 1px solid rgba(137, 137, 137, 1);
+	width: 98%;
+	cursor: ns-resize;
+}
+
+.right-column #column-resizer {
+	font-size: 23px;
+	position: absolute;
+	left: -2px;
+	cursor: ew-resize;
+	border: 1px solid rgba(137, 137, 137, 1);
+	height: 100%;
+}
+
+.container {
+	width: 100%;
+}
+
+.datatable th, .datatable td {
+	font-size: 12px;
+}
+
+#content-table .datatable th, #content-table .datatable td {
+	white-space: nowrap;	
+}
+
+.datatable td {
+	padding-top: 3px !important;
+	padding-bottom: 3px !important;
+}
+
+.content-title h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.content-title .actions {
+	margin-top: 5px;
+}
+
+#analysis-patterns {
+	overflow-y: auto;
+	height: 223px;
+	background: url(../images/promotion.png) no-repeat center;
+	background-size: 100px; 
+	padding-bottom: 3px;
+}
+
+#candidate-patterns {
+	overflow-y: auto;
+	padding-right: 3px;
+	margin-top: 7px;
+}
+.pattern {
+	font-size: 12px;
+	margin-bottom: 5px;	
+	line-height: 14px;
+}
+#analysis-patterns .pattern {
+    margin: 0px 3px 3px 0px;
+    height: 217px;
+    width: 340px;
+    display: inline-block;
+}
+
+#analysis-patterns .pattern.pattern-set {
+    margin: 0px 3px 3px 0px;
+    height: 248px;
+    width: 100%;
+    overflow-y: scroll;
+    display: inline-block;
+}
+#analysis-patterns .pattern .left {
+	width: 180px;
+}
+
+.pattern .panel-heading {
+	padding: 3px 5px 3px 25px;
+	border-color: #C2BABA;
+}
+.pattern .panel-heading .title {
+	font-weight: bold;
+}
+#analysis-patterns .pattern .panel-heading .title {
+	max-width: 245px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.pattern .panel-heading .actions a {
+	margin-left: 5px;
+}
+.pattern.association {
+	background-color: #d7e4d7;
+}
+.pattern.association .panel-heading {
+	background: url(../images/asso.png) no-repeat 5px 3px;
+	background-size: 17px;
+}
+.pattern.subgroup {
+	background-color: #e6eeee;
+}
+.pattern.subgroup .panel-heading {
+	background: url(../images/subg.png) no-repeat 5px 3px;
+	background-size: 17px;
+}
+.pattern.generic-pattern {
+	background-color: #e6e6e6;
+}
+.pattern.generic-pattern .panel-heading {
+	background: url(../images/magnifying-glass-155170_640.png) no-repeat 5px 3px;
+	background-size: 17px;
+}
+
+.pattern.selected-for-rating {
+	border-color:#FF0000;
+	border-width:5px;
+}
+
+.pattern.selected-for-data-filter .panel-heading {
+	background-color:#FFFFFF;
+}
+
+.pattern .panel-body {
+	padding: 3px;
+}
+.pattern .description {
+	border-bottom: 1px dotted #C2BABA;
+	padding-bottom: 3px;
+	margin-bottom: 3px;
+}
+.pattern .explanation {
+	padding-bottom: 3px;
+	margin-bottom: 3px;
+}
+#candidate-patterns .pattern .visualization, .pattern.being-dragged .visualization {
+	overflow-x: auto;
+	white-space: nowrap;
+	padding-bottom: 3px;
+}
+
+#analysis-patterns .pattern .description {
+	overflow-y: auto;
+	max-height: 70px;
+	white-space: normal;
+}
+#analysis-patterns .pattern .explanation {
+	border-bottom: 1px dotted #C2BABA;
+	overflow-y: auto;
+	max-height: 70px;
+}
+#analysis-patterns .pattern .annotation {
+	resize: none;
+	height: 40px;
+	width: 100%;
+	border: 0;
+	background-color: transparent;
+}
+#analysis-patterns .pattern .visualization {
+	overflow-y: auto;
+	height: 189px;
+}
+#analysis-patterns .pattern .visualization img {
+	float: right;
+}
+
+.ocmtitle {
+    font-size: 26px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.referencecontrolbox {
+    position:absolute;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    z-index:999;
+    background:#fff;
+    border-radius:5px;
+    border: solid black;
+    display: none;
+}
+
+.red-tooltip + .tooltip > .tooltip-inner {background-color: #f00;}
+
+.red-icon {color: #ff0000}
+
+.export-pattern {
+    position:absolute;
+    top:5px;
+    right:0px;
+    width:30px;
+    height:30px;
+    /*background:green;*/
+}

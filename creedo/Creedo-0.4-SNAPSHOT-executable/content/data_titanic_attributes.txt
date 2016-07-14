@@ -1,0 +1,11 @@
+PassId;name;ID of Passenger
+Survived;categoric;Did the passenger survive the accident?
+PassClass;categoric;Passenger Class
+Name;name;Passenger name
+Title;categoric;Passenger name title
+Sex;categoric;Sex
+Age;numeric;Age
+SibSp;numeric;Number of Siblings or Spouses aboard
+ParCh;numeric;Number of Parents or Children aboard
+Fare;numeric;Fare Price
+Embarked;categoric;Harbour of Embarkation
